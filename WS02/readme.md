@@ -1,1 +1,1 @@
-en tiiä viel 2
+en tiiä viel 2 kinkankunakan
