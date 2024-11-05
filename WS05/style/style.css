@@ -1,0 +1,8 @@
+header
+footer {
+    padding: 1em;
+    color: antiquewhite;
+    background-color: aquamarine;
+    clear: left;
+    text-align: center;
+}
