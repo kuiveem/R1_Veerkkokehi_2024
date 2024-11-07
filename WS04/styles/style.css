@@ -1,12 +1,38 @@
+/* Taustan ja tekstin värit */
 body {
-    color:rgb(255, 255, 255);
-    background-color: rgb(89, 30, 30);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
 }
+
+/* h1-elementin fonttikoko */
 h1 {
-    color: green;
-    margin-left: 40px;
-}
-p {
-    font-family: verdana;
     font-size: 20px;
+}
+
+/* p-elementin fonttikoko ja väri */
+p {
+    font-size: 12px;
+    color: lightgray;
+}
+
+/* div-elementin tyylit */
+.dotted-box {
+    border: 2px dotted white;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Järjestetyn listan tyyli (kirjaimet) */
+ol {
+    list-style-type: upper-alpha;
+    margin-left: 20px;
+}
+
+/* Järjestämättömän listan tyyli (neliöt) */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
 }
