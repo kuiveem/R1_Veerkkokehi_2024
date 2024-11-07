@@ -1,25 +1,49 @@
 <!DOCTYPE html>
-<html lang="fi">
-  <head>
-    <link rel="stylesheet" href="./style/style.css" />
-    <meta charset="UTF-8" />
-    <title>WEB WS05 tehtävä</title>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-  <body>
+    <!-- Ylätunniste -->
     <header>
-      <h1>HTML layout tasti</h1>
+        <h1>HTML LayoutTest</h1>
     </header>
+
+    <!-- Navigaatio -->
     <nav>
-      <div class="wrapper">
-        <div>
-          <a href="index.html">index HTML</a>
-        </div>
-      </div>
+        <a href="index.html">Index HTML</a>
+        <a href="second.html">Second HTML</a>
     </nav>
 
-    <h1 id="toinen">MORO: tämä on toinen html tiedosto</h1>
+    <!-- Pääsisältöosio ja sivupalkki -->
+    <main>
+        <section>
+            <h2>Main Section</h2>
+            <p>This is the main section of the website, where most of the content goes.</p>
+        </section>
 
-    <footer>Copyright EMK</footer>
-  </body>
+        <aside>
+            <h2>Sidebar - Aside</h2>
+            <p>This is the sidebar content, which might contain additional information or links.</p>
+        </aside>
+    </main>
+
+    <!-- Artikkeli-osio -->
+    <article>
+        <h2>Article Content</h2>
+        <p>This is an article section. It can contain long-form content or blog posts, for example.</p>
+    </article>
+
+    <!-- Alatunniste -->
+    <footer>
+        <p>Copyright © JariKovis</p>
+    </footer>
+
+</body>
 </html>
+
+
